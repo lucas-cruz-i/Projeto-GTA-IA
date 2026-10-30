@@ -71,10 +71,33 @@ h1 {
     object-fit: cover;
     object-position: top;
     border: 2px solid #ffffff;
+    cursor: pointer;
 }
 
 .voce {
     background-color: #ffd319;
     padding: 20px;
     border-radius: 50%;
+}
+
+.avatar:hover {
+    transform: scale(1.15);
+    border: 3px solid #ffd319;
+    box-shadow: 
+        0 0 8px #ffd319,
+        0 0 18px rgba(255, 211, 25, 0.8);
+}
+
+/* Botão de selecionar foto */
+.voce {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.voce:hover {
+    transform: scale(1.12);
+    box-shadow: 
+        0 0 10px #ffd319,
+        0 0 25px rgba(255, 211, 25, 0.9);
+    filter: brightness(1.15);
 }
